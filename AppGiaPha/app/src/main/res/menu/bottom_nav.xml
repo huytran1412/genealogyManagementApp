@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home_gia_pha"
+        android:icon="@drawable/ic_gp"
+        android:title="@string/giaPha" />
+    <item
+        android:id="@+id/nav_home_su_kien"
+        android:icon="@drawable/ic_cal"
+        android:title="@string/suKien" />
+    <item
+        android:id="@+id/nav_home_kho_anh"
+        android:icon="@drawable/img"
+        android:title="@string/khoAnh" />
+    <item
+        android:id="@+id/nav_home_tai_khoan"
+        android:icon="@drawable/ic_user"
+        android:title="@string/taiKhoan" />
+</menu>

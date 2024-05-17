@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#a00000"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:id="@+id/toolbar"
+        android:background="@drawable/toolbar_shape"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <ImageButton
+            android:src="@drawable/back"
+            android:id="@+id/btnBack"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:tint="@color/white" />
+        <TextView
+            android:id="@+id/tenLevel"
+            android:text="@string/chi_tiet_thanh_vien"
+            android:layout_gravity="center"
+            android:layout_marginStart="25dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font1"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:src="@drawable/diskette"
+            android:id="@+id/btnSave"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:tint="@color/white" />
+    </LinearLayout>
+    <ScrollView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#f0de74"
+                android:fontFamily="@font/font1"
+                android:id="@+id/textViewTenThanhVienLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewTenThanhVienLabel"
+                android:textSize="16sp" />
+
+            <EditText
+                android:textColorHint="#f6f6f6"
+                android:textColor="#f6f6f6"
+                android:fontFamily="@font/font1"
+                android:id="@+id/editTextTenThanhVien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTenThanhVienLabel"
+                android:layout_marginTop="8dp"
+                android:hint="@string/editTextTenThanhVienHint" />
+
+            <TextView
+                android:textColor="#f0de74"
+                android:fontFamily="@font/font1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewNgaySinhLabel"
+                android:textSize="16sp" />
+
+            <EditText
+                android:fontFamily="@font/font1"
+                android:textColorHint="#f6f6f6"
+                android:textColor="#f6f6f6"
+                android:id="@+id/editTextNgaySinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTenThanhVienLabel"
+                android:layout_marginTop="8dp"
+                android:editable="false"
+                android:hint="@string/editTextNgaySinhHint" />
+
+            <TextView
+                android:textColor="#f0de74"
+                android:fontFamily="@font/font1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewDiaChiLabel"
+                android:textSize="16sp" />
+
+            <EditText
+
+                android:fontFamily="@font/font1"
+                android:textColorHint="#f6f6f6"
+                android:textColor="#f6f6f6"
+                android:id="@+id/editTextDiaChi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTenThanhVienLabel"
+                android:layout_marginTop="8dp"
+                android:hint="@string/editTextDiaChiHint" />
+
+            <TextView
+                android:textColor="#f0de74"
+                android:fontFamily="@font/font1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewEmailLabel"
+                android:textSize="16sp" />
+
+            <EditText
+                android:fontFamily="@font/font1"
+                android:textColorHint="#f6f6f6"
+                android:textColor="#f6f6f6"
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTenThanhVienLabel"
+                android:layout_marginTop="8dp"
+                android:hint="@string/editTextEmailHint" />
+
+            <TextView
+                android:textColor="#f0de74"
+                android:fontFamily="@font/font1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewConCuaLabel"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinnerConCua"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:fontFamily="@font/font1"
+                android:textColor="#f0de74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewGioiTinhLabel"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupGioiTinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:theme="@style/MyCheckBox"
+                    android:checked="true"
+                    android:fontFamily="@font/font1"
+                    android:textColor="#f0de74"
+                    android:id="@+id/radioButtonNam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewGioiTinhNam" />
+
+                <RadioButton
+                    android:theme="@style/MyCheckBox"
+                    android:fontFamily="@font/font1"
+                    android:textColor="#f0de74"
+                    android:id="@+id/radioButtonNu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textViewGioiTinhNu" />
+
+            </RadioGroup>
+
+            <TextView
+                android:fontFamily="@font/font1"
+                android:textColor="#f0de74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewNgayMatLabel"
+                android:textSize="16sp" />
+
+            <EditText
+                android:fontFamily="@font/font1"
+                android:textColorHint="#f6f6f6"
+                android:textColor="#f6f6f6"
+                android:id="@+id/editTextMat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTenThanhVienLabel"
+                android:layout_marginTop="8dp"
+                android:editable="false"
+                android:hint="@string/editTextNgaySinhHint" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

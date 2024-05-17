@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#666c74" /> <!-- Màu của nút khi ở trạng thái mặc định -->
+</shape>

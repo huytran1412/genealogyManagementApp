@@ -1,0 +1,31 @@
+<!-- res/layout/activity_add_family_tree.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/item_level"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+    <!-- EditText for entering album name -->
+    <EditText
+        android:id="@+id/edtAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font1"
+        android:layout_margin="16dp"
+        android:hint="@string/editTextAlbumHint"
+        android:inputType="text"
+        android:maxLines="1" />
+    <!-- Button to save -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:fontFamily="@font/font1"
+        android:backgroundTint="#f0de74"
+        android:layout_below="@+id/edtAlbum"
+        android:textColor="#a00000"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/buttonSave" />
+
+</RelativeLayout>

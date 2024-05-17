@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">FamilyTreeApp</string>
+    <string name="giaPha">Family tree</string>
+    <string name="suKien">Events</string>
+    <string name="taiKhoan">Account</string>
+    <string name="cayGiaPha">Family tree</string>
+    <string name="phaDo">Family tree</string>
+    <string name="khoAnh">Photo gallery</string>
+    <string name="dsTv">List of members</string>
+    <string name="hsGd">Family records</string>
+    <string name="tkbc">Statistics and reports</string>
+    <string name="tk">Statistics</string>
+    <string name="csGp">Share family tree</string>
+    <string name="mxh">Social media</string>
+    <string name="allTv">All members</string>
+    <string name="fStory">Family stories</string>
+    <string name="sk">Events</string>
+    <string name="ngay_gia_dinh">Family day</string>
+    <string name="story">Story</string>
+    <string name="tai_khoan">Account</string>
+    <string name="en_lang">English</string>
+    <string name="vi_lang">Vietnamese</string>
+    <string name="doi2">Level</string>
+    <string name="thanh_vien">Members</string>
+    <string name="doi_thu">Level</string>
+    <string name="so_luong">Members</string>
+    <string name="sua">Edit</string>
+    <string name="xoa">Delete</string>
+    <string name="button1">Update name</string>
+    <string name="enter_name">Enter family tree name</string>
+
+    <string name="chi_tiet_thanh_vien">Detail member</string>
+
+    <string name="textViewTenThanhVienLabel">Member name:</string>
+    <string name="textViewNgaySinhLabel">Date of birth:</string>
+    <string name="textViewDiaChiLabel">Address:</string>
+    <string name="textViewEmailLabel">Email:</string>
+    <string name="textViewConCuaLabel">Child of:</string>
+    <string name="textViewGioiTinhLabel">Gender:</string>
+    <string name="textViewNgayMatLabel">Date of death:</string>
+    <string name="editTextTenThanhVienHint">Enter member name</string>
+    <string name="editTextNgaySinhHint">Date of birth</string>
+    <string name="editTextDiaChiHint">Enter address</string>
+    <string name="editTextEmailHint">Enter email</string>
+    <string name="editTextMatHint">Date of death</string>
+    <string name="textViewGioiTinhNam">Male</string>
+    <string name="textViewGioiTinhNu">Female</string>
+    <string name="them">Add</string>
+    <string name="huy">Cancel</string>
+    <!-- res/values/strings.xml -->
+    <string name="editTextAlbumHint">Enter album name</string>
+    <string name="buttonSave">Save</string>
+    <string name="editTextStoryHint">Enter today\'s story</string>
+    <string name="btnAddStoryText">Share</string>
+    <string name="btnAddEventText">Create Event</string>
+    <string name="time">Hour</string>
+    <string name="time2">Day</string>
+    <string name="time3">Month</string>
+    <string name="time4">Year</string>
+    <string name="noEventsToday">No events today</string>
+    <string name="add_ev">Add envent</string>
+    <string name="enter_en">Enter envent name</string>
+
+</resources>

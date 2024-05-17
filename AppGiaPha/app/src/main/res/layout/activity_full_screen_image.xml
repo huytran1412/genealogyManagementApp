@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#fbead7"
+    android:layout_height="match_parent">
+    <com.github.chrisbanes.photoview.PhotoView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/photo_view"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="62dp"
+        android:backgroundTint="#a00000"
+        app:tint="#f6d689"
+        android:src="@drawable/back"
+        android:id="@+id/btnAddGiaPha"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_height="62dp"/>
+</RelativeLayout>

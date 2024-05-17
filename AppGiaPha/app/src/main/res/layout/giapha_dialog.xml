@@ -1,0 +1,30 @@
+<!-- res/layout/activity_add_family_tree.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/item_level"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+    <!-- EditText để nhập tên gia phả -->
+    <EditText
+        android:id="@+id/editTextFamilyTreeName"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font1"
+        android:layout_margin="16dp"
+        android:hint="@string/enter_name"
+        android:inputType="text"
+        android:maxLines="1" />
+    <Button
+        android:id="@+id/buttonAddFamilyTree"
+        android:fontFamily="@font/font1"
+        android:backgroundTint="#f0de74"
+        android:layout_below="@+id/editTextFamilyTreeName"
+        android:textColor="#a00000"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/button1" />
+
+</RelativeLayout>
